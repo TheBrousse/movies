@@ -1,6 +1,3 @@
-var SQLiteModule = require("SQLite");
-var sqlLite = new SQLiteModule.SQLite();
-
 var args = arguments[0] || {};
 
 $.title.text = args.title;
@@ -18,7 +15,3 @@ for (var i = 0; i < args.abridged_cast.length; i++) {
 }
 
 $.tblCast.setData(rows);
-
-$.favButton.addEventListener('click', function(e){
-	sqlLite.addFavourite(args.id, args);
-});

@@ -2,7 +2,7 @@
 	<TabGroup id="tabs">
 		
 		<Tab title="Movies" icon="images/reviews.png">
-			<Window class="window" id="window1">
+			<Window title="Box Office Movies" class="window" id="window1">
 				
 				 <View id="tableWrapper">
                        <TableView id="tblMovies" />
@@ -12,7 +12,7 @@
 		</Tab>
 		
 		
-		<Tab title="About" icon="images/heart2.png">
+		<Tab title="About" icon="images/about.png">
 			<Window title="About" class="window">
 				
 				<ImageView id="logo" />

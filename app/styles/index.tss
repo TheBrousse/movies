@@ -1,12 +1,12 @@
 ".window" :{
 	backgroundColor: '#fff',
-	barColor: '#1976d2',
-	tintColor: Alloy.Globals.highlightColor,
+	barColor: '##50afe6',
+	tintColor: '#ff0000',
 	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
 }
 
 "#tabs":{
-	tabsBackgroundColor: '#1976d2',
+	tabsBackgroundColor: '##50afe6',
 	tabHeight: 60,
 	tabsTintColor: '#fff'
 }
@@ -38,5 +38,5 @@
 
 "#author": {
 	text: 'Christian Brousseau',
-	top: 300
+	top: 250
 }
