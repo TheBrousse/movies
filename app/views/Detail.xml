@@ -6,7 +6,6 @@
             <Label id="year"></Label>
             <ImageView id="rating"></ImageView>
             <Label id="synopsis"></Label>
-            <Button id="favButton" />
 
             <Label class="sectionHeader">Cast</Label>
             <TableView id="tblCast"></TableView>
