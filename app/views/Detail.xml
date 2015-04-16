@@ -1,0 +1,15 @@
+<Alloy>
+    <Window id="Detail" navBarHidden="false">
+        <ScrollView class="container">
+            <ImageView id="thumbnail"></ImageView>
+            <Label id="title">Movie Details Here</Label>
+            <Label id="year"></Label>
+            <ImageView id="rating"></ImageView>
+            <Label id="synopsis"></Label>
+            <Button id="favButton" />
+
+            <Label class="sectionHeader">Cast</Label>
+            <TableView id="tblCast"></TableView>
+        </ScrollView>
+    </Window>
+</Alloy>

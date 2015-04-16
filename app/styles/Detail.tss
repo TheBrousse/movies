@@ -1,0 +1,68 @@
+
+".container" : {
+  	backgroundColor: 'white'
+}
+
+"#thumbnail": {
+	left: 5,
+	top: 5,
+	width: 110
+}
+
+"#title": {
+	right: 5,
+	top: 5,
+	height: Ti.UI.SIZE,
+	font:{
+		fontSize: '24sp',
+		fontWeight: 'bold'
+	},
+}
+
+"#year": {
+	top: 30,
+	right: 8
+}
+
+"#rating": {
+	top: 45,
+	right: 8
+}
+
+"#synopsis": {
+	font:{
+		fontSize: '10sp'
+	},
+	right: 5,
+	width: '50%',
+	height: Ti.UI.SIZE,
+	top: 70
+}
+
+".sectionHeader": {
+	font:{
+		fontSize: '18sp',
+		fontWeight: 'bold'
+	},
+	width: '95%',
+	height: Ti.UI.SIZE,
+	top: 190,
+	backgroundColor: 'lightgray'
+}
+
+"#tblCast": {
+	top: 210,
+	bottom: 0
+}
+
+"#favButton":{
+	backgroundImage: '/images/heart2.png',
+	backgroundColor: '#1976d2',
+	borderRadius: 3,
+	width: 29,
+	height: 29,
+	right: 10,
+	top: 65,
+	zIndex: 99
+}
+

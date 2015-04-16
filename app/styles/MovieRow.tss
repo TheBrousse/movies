@@ -1,0 +1,45 @@
+"#wrapper":{
+	layout: 'horizontal',
+	height: 100,
+	width: Ti.UI.FILL,
+	left: 0,
+	right: 0
+},
+
+"#container" : {
+ 	left: 0 ,
+ 	top: 10,
+ 	right: 0
+},
+
+".heading":{
+	width: Ti.UI.SIZE,
+	height: 25,
+	left: 90,
+	top: 0,
+	right: 10,
+	font :{
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	color: '#000'
+},
+
+".subHeading":{
+	width: Ti.UI.SIZE,
+	height: 50,
+	left: 90,
+	right: 10,
+	top: 25,
+	font :{
+		fontSize: 13
+	},
+	color: '#212121'
+},
+
+"#thumbnail":{
+	width: 60,
+	height: 80,
+	left: 10,
+	top: 0
+}

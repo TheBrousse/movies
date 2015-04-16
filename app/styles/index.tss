@@ -1,0 +1,42 @@
+".window" :{
+	backgroundColor: '#fff',
+	barColor: '#1976d2',
+	tintColor: Alloy.Globals.highlightColor,
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+
+"#tabs":{
+	tabsBackgroundColor: '#1976d2',
+	tabHeight: 60,
+	tabsTintColor: '#fff'
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
+
+"#tblMovies":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	left: 0,
+	right: 0,
+	backgroundColor: '#fff',
+	separatorStyle: 0
+},
+
+"#logo": {
+	image: '/images/mixit-banner.png',
+	top: 100
+},
+
+"#author": {
+	text: 'Christian Brousseau',
+	top: 300
+}

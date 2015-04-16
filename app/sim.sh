@@ -1,0 +1,1 @@
+clear; ti build --tall -p ios -C E736CC9E-E02A-407F-B51B-8FEF0450F523 --shadow
