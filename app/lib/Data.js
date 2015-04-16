@@ -27,7 +27,7 @@ Data.prototype.makeHTTPRequest = function(url, callback){
  * builds the url and fetches the movie JSON from RottenTomatoes
  */
 Data.prototype.fetchMovies = function(query, callback){
-	var url = this.BASE_URL + 'movies.json?apikey=' + this.API_KEY + '&q=' + query;
+	var url = this.BASE_URL + 'lists/movies/box_office.json?apikey=' + this.API_KEY;
 	
 	this.makeHTTPRequest(url, function(success, response){
 		callback(success, response);
