@@ -4,6 +4,7 @@ build
 npm-debug.log
 tmp
 .map
+.settings
 Resources
 Resources/alloy/styles/index.js
 
