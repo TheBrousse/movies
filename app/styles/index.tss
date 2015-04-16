@@ -1,13 +1,13 @@
 ".window" :{
 	backgroundColor: '#fff',
-	barColor: '#50afe6',
-	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+	barColor: '#50afe6'
 },
 
 ".window[platform=ios]": {
 	titleAttributes: {
         color:'white'
-    }
+    },
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
 },
 
 "#tabs":{
