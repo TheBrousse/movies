@@ -13,3 +13,5 @@ Resources/alloy/styles/index.js
 Resources/alloy/controllers/index.js
 
 Resources/alloy/controllers/index.js
+
+app/sim.sh
